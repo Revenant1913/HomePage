@@ -48,5 +48,10 @@ background: rgba(0, 0, 0, 0.63);
   }
 
   .nav{
-    position: fixed;
+    margin-top: 45px;
+  }
+
+  .overview{
+    background: rgb(0, 0, 0); /* Fallback color */
+background: rgba(0, 0, 0, 0.164);
   }

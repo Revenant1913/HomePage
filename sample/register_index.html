@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <title>Registeration Form Kisan Seva</title>
+</head>
+<body>
+    <div class="content-section">
+        <div class="container">
+            <form  action="connect.php" method="post" onsubmit="return validateRegistration();">
+                <div class="commodity-header" style="text-align: center; border-color:rgb(18, 92, 8);background-color: rgb(18, 92, 8); color:white !important; padding: 5px 7px ">
+                    Kisan Seva Registration Form</div>  
+                <div class="row">
+                    <form>
+                        <br>
+                        <fieldset>
+                            <legend><h3>Personal Details</h3></legend>
+                            <div class="card">
+                                <label for="First name">First Name<span style="color: rgb(255, 0, 0);">*</span>:</label>
+                                <br>
+                                <input type="text" class="form-control" name="fname" id="First name" >
+                                <br>
+                                <label>Middle Name:</label>
+                                <br>
+                                <input type="text" class="form-control" name="mname" id="Middle name">
+                                <br>
+                                <label>Last Name<span style="color: rgb(255, 0, 0);">*</span>:</label>
+                                <br>
+                                <input type="text" class="form-control" name="lname" id="last name">
+                                <br>
+                            </div>  
+                            <div>
+                                <br>
+                                <label>Address<span style="color: rgb(255, 0, 0);">*</span>:</label>
+                                <br>
+                                <input  name="address" id="address" cols="100" maxlength="100" rows="2">   
+                            </div>  
+                            <button><input type="submit" class="btn bt-primary" ></button>
+                        </fieldset>
+                    </form>     
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

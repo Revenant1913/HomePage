@@ -1,0 +1,21 @@
+
+.search-bar{
+    width: 50%;
+}
+
+.organic-intro{
+    background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.075);
+  
+}
+
+/*.card-button{
+  z-index: 1000;
+  position: relative;
+}*/
+
+.plant-section{
+  
+  background-color: lightblue;
+}
+

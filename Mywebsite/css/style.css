@@ -55,3 +55,8 @@ background: rgba(0, 0, 0, 0.63);
     background: rgb(0, 0, 0); /* Fallback color */
 background: rgba(0, 0, 0, 0.164);
   }
+
+  .lang{
+    position: fixed;
+    margin-top: 150px;
+  }
